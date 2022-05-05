@@ -19,11 +19,7 @@ public class Client {
         this.socket = new Socket(ip, port);
     }
     
-    public Client(String ip2, int port2) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public void start(){
+    public void start(){
         try{
             PrintWriter out = new PrintWriter(
                     this.socket.getOutputStream(), true);

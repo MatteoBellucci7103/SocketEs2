@@ -13,3 +13,4 @@ public class ClientManager {
             Logger.getLogger(ClientManager.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+}
